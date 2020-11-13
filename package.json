@@ -1,0 +1,13 @@
+{
+  "name": "daily-code-snippet",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Write few lines of code everyday.",
+  "scripts": {},
+  "author": "DSRKafuU <amzrk2@outlook.com> (https://amzrk2.cc/)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amzrk2/daily-code-snippet"
+  }
+}
