@@ -1,0 +1,31 @@
+<html>
+  <body>
+    <div id="ele" class="div">
+      <span id="s1" class="sp" lang="zh-cn"> </span>
+    </div>
+  </body>
+  <script type="text/javascript">
+    function exct() {
+      var oEle = document.getElementById('ele');
+      var child = oEle.children;
+      console.log('ele.children的执行结果是:');
+      for (i = 0; i < child.length; i++) {
+        console.log(child[i].tagName);
+      }
+      /**
+       * SPAN
+       */
+      child = oEle.childNodes;
+      console.log('ele.childNodes的执行结果是:');
+      for (i = 0; i < child.length; i++) {
+        console.log(child[i].tagName);
+      }
+      /**
+       * undefined
+       * SPAN
+       * undefined
+       */
+    }
+    exct();
+  </script>
+</html>
