@@ -1,0 +1,20 @@
+<ul>
+  <li>click me</li>
+  <li>click me</li>
+  <li>click me</li>
+  <li>click me</li>
+</ul>
+
+<script>
+  var elements = document.getElementsByTagName('li');
+  var length = elements.length;
+  for (var i = 0; i < length; i++) {
+    elements[i].onclick = function () {
+      alert(i);
+    };
+  }
+  /**
+   * output
+   * 4 4 4 4
+   */
+</script>
