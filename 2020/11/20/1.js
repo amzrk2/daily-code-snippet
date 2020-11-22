@@ -6,6 +6,6 @@
  * DOMContentLoaded
  * image: onload
  * iframe: onload
- * readyState:complete
+ * readyState: complete
  * window: onload
  */
