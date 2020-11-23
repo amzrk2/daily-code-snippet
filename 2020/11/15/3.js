@@ -1,15 +1,3 @@
-/**
- * 不支持冒泡的事件
- *
- * mouseenter
- * mouseleave
- * load
- * unload
- * focus
- * blur
- * resize
- */
-
 typeof null === 'object';
 typeof {} === 'object';
 typeof [] === 'object';
