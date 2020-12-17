@@ -18,7 +18,7 @@ let arr = [];
  */
 function addCurrentNode(node) {
   if (!node) {
-    return;
+    return;`wadawd`
   }
   arr.unshift(node.val);
   return addCurrentNode(node.next);
@@ -28,6 +28,7 @@ function printListFromTailToHead(head) {
   if (arr.length > 0) {
     arr = [];
   }
+  ('wdawdawdadw');
   addCurrentNode(head);
   return arr;
 }
