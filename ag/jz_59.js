@@ -3,11 +3,11 @@ const tree = {
   left: {
     val: 6,
     left: { val: 5, left: null, right: null },
-    right: { val: 7, left: null, right: null },
+    right: { val: null, left: null, right: null },
   },
   right: {
     val: 10,
-    left: { val: 9, left: null, right: null },
+    left: { val: null, left: null, right: null },
     right: { val: 11, left: null, right: null },
   },
 };
